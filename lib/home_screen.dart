@@ -18,23 +18,24 @@ class Homescreen extends StatelessWidget {
           children: [
             SizedBox(height: 250),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal:24),
-              child: Text (
+              padding: const EdgeInsets.symmetric(horizontal: 24),
+              child: Text(
                 'Exercise To Unlock Apps',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 44,height: 1.1),
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 44,
+                  height: 1.1,
+                ),
                 textAlign: TextAlign.center,
               ),
             ),
 
             SizedBox(height: 8),
-                Text(
-                  'Block apps.Exercise.Unlock time.',
-                  style: TextStyle(
-                    color: Colors.grey,
-                    fontWeight: FontWeight(500),
-                  ),
-                ),
-              
+            Text(
+              'Block apps.Exercise.Unlock time.',
+              style: TextStyle(color: Colors.grey, fontWeight: FontWeight(500)),
+            ),
+
             SizedBox(height: 250),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
