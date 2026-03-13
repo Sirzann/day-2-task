@@ -21,12 +21,12 @@ class Homescreen extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 24),
               child: Text(
                 'Exercise To Unlock Apps',
+                textAlign: TextAlign.center,
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 44,
                   height: 1.1,
                 ),
-                textAlign: TextAlign.center,
               ),
             ),
 
