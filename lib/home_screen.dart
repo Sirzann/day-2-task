@@ -33,7 +33,7 @@ class Homescreen extends StatelessWidget {
             SizedBox(height: 8),
             Text(
               'Block apps. Exercise. Unlock time.',
-              style: TextStyle(color: Colors.grey, fontWeight: FontWeight(500)),
+              style: TextStyle(color: Colors.grey, fontWeight: FontWeight.w500),
             ),
 
             SizedBox(height: 250),
